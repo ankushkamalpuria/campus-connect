@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
-import { ArrowRight, Globe, TrendingUp, ShieldCheck, BadgeCheck } from 'lucide-react';
+import { ArrowRight, Globe, TrendingUp, ShieldCheck, BadgeCheck, Zap, Award, Users, Rocket } from 'lucide-react';
 
 const Home = () => {
     const [featuredCompanies, setFeaturedCompanies] = useState([]);
@@ -59,10 +59,18 @@ const Home = () => {
             animate="visible"
             variants={containerVariants}
         >
-            <section className="hero-section" style={{ textAlign: 'center', padding: '6rem 1rem 4rem', position: 'relative' }}>
-                <motion.div variants={itemVariants}>
+            <section className="hero-section" style={{ textAlign: 'center', padding: '6rem 1rem 4rem', position: 'relative', display: 'flex', justifyContent: 'center' }}>
+                <motion.div
+                    variants={itemVariants}
+                    className="glass"
+                    style={{ padding: '3rem 2rem', maxWidth: '900px', width: '95%', position: 'relative', overflow: 'hidden' }}
+                >
+                    <div style={{ position: 'absolute', top: 0, left: 0, right: 0, height: '4px', background: 'linear-gradient(90deg, #38bdf8, #818cf8)' }}></div>
+
                     {/* Improved visibility with drop-shadow and brighter gradient */}
-                    <span className="badge">New: 2026 Batches Open</span>
+                    <span className="badge">
+                        New: 2026 Batches Open
+                    </span>
                     <h1 style={{ fontSize: '3.5rem', marginBottom: '1.5rem', color: '#ffffff', fontWeight: '800', lineHeight: 1.2, textShadow: '0 4px 10px rgba(0,0,0,0.5)' }}>
                         Find Top Tech Internships <br />
                         <span style={{ fontSize: '2.5rem', color: '#38bdf8', opacity: 1, textShadow: '0 0 20px rgba(56, 189, 248, 0.6)' }}>
@@ -104,6 +112,42 @@ const Home = () => {
                         <h3>Official Links</h3>
                         <p style={{ color: 'var(--text-secondary)', fontSize: '0.9rem' }}>We redirect you directly to the official company career portals.</p>
                     </motion.div>
+                </div>
+            </section>
+
+            {/* Company Partnership Section / Why Top Companies */}
+            <section className="container" style={{ margin: '4rem auto 2rem' }}>
+                <div className="glass" style={{ padding: '3rem', position: 'relative', overflow: 'hidden' }}>
+                    <div style={{ position: 'absolute', top: 0, left: 0, right: 0, height: '4px', background: 'linear-gradient(90deg, #38bdf8, #a855f7)' }}></div>
+                    <div style={{ textAlign: 'center', marginBottom: '3rem' }}>
+                        <h2 style={{ fontSize: '2.2rem', marginBottom: '1rem' }}>Why Target Top-Tier Companies?</h2>
+                        <p style={{ color: 'var(--text-secondary)', maxWidth: '700px', margin: '0 auto' }}>
+                            Securing an internship at a tech giant isn't just about the name—it's about the exclusive environment and growth opportunities.
+                        </p>
+                    </div>
+
+                    <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(200px, 1fr))', gap: '2rem' }}>
+                        <div style={{ textAlign: 'center' }}>
+                            <Zap size={32} color="#38bdf8" style={{ marginBottom: '1rem' }} />
+                            <h4 style={{ marginBottom: '0.5rem' }}>Elite Mentorship</h4>
+                            <p style={{ fontSize: '0.85rem', color: 'var(--text-secondary)' }}>Learn from the best engineers and leaders in the industry.</p>
+                        </div>
+                        <div style={{ textAlign: 'center' }}>
+                            <Award size={32} color="#a855f7" style={{ marginBottom: '1rem' }} />
+                            <h4 style={{ marginBottom: '0.5rem' }}>Resume Power</h4>
+                            <p style={{ fontSize: '0.85rem', color: 'var(--text-secondary)' }}>Having these names on your profile opens doors globally for life.</p>
+                        </div>
+                        <div style={{ textAlign: 'center' }}>
+                            <Users size={32} color="#4ade80" style={{ marginBottom: '1rem' }} />
+                            <h4 style={{ marginBottom: '0.5rem' }}>Global Networking</h4>
+                            <p style={{ fontSize: '0.85rem', color: 'var(--text-secondary)' }}>Connect with talented peers and experts across the world.</p>
+                        </div>
+                        <div style={{ textAlign: 'center' }}>
+                            <Rocket size={32} color="#f472b6" style={{ marginBottom: '1rem' }} />
+                            <h4 style={{ marginBottom: '0.5rem' }}>Direct PPO Path</h4>
+                            <p style={{ fontSize: '0.85rem', color: 'var(--text-secondary)' }}>Many internships lead directly to high-paying full-time roles.</p>
+                        </div>
+                    </div>
                 </div>
             </section>
 
