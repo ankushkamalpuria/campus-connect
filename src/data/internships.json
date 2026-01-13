@@ -1,0 +1,1012 @@
+[
+    {
+        "id": 1,
+        "company": "Google",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg",
+        "role": "Software Engineering Intern",
+        "location": "Bangalore, Hyderabad",
+        "type": "Paid",
+        "category": "Software",
+        "link": "https://careers.google.com/students/"
+    },
+    {
+        "id": 2,
+        "company": "Microsoft",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/4/44/Microsoft_logo.svg",
+        "role": "Data Science Intern",
+        "location": "Bangalore, Noida",
+        "type": "Paid",
+        "category": "Data",
+        "link": "https://careers.microsoft.com/students/us/en"
+    },
+    {
+        "id": 3,
+        "company": "Amazon",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Amazon_logo.svg",
+        "role": "SDE Intern",
+        "location": "Bangalore, Hyderabad, Chennai",
+        "type": "Paid",
+        "category": "Software",
+        "link": "https://www.amazon.jobs/en/business_categories/student-programs"
+    },
+    {
+        "id": 4,
+        "company": "Meta",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Meta_Platforms_Inc._logo.svg",
+        "role": "Production Engineering Intern",
+        "location": "Remote / Global",
+        "type": "Paid",
+        "category": "Cloud",
+        "link": "https://www.metacareers.com/jobs"
+    },
+    {
+        "id": 5,
+        "company": "Netflix",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/0/08/Netflix_2015_logo.svg",
+        "role": "Content Strategy Intern",
+        "location": "Mumbai",
+        "type": "Paid",
+        "category": "Management",
+        "link": "https://jobs.netflix.com/"
+    },
+    {
+        "id": 6,
+        "company": "NVIDIA",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/2/21/Nvidia_logo.svg",
+        "role": "AI Research Intern",
+        "location": "Bangalore, Pune",
+        "type": "Paid",
+        "category": "AI",
+        "link": "https://www.nvidia.com/en-us/about-nvidia/careers/"
+    },
+    {
+        "id": 7,
+        "company": "Apple",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Apple_logo_black.svg",
+        "role": "Hardware Engineering Intern",
+        "location": "Bangalore, Hyderabad",
+        "type": "Paid",
+        "category": "Hardware",
+        "link": "https://www.apple.com/careers/in/"
+    },
+    {
+        "id": 8,
+        "company": "Tesla",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Tesla_logo.png",
+        "role": "Autopilot Intern",
+        "location": "Remote / USA",
+        "type": "Paid",
+        "category": "AI",
+        "link": "https://www.tesla.com/careers"
+    },
+    {
+        "id": 9,
+        "company": "Adobe",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/8/8d/Adobe_Corporate_Logo.png",
+        "role": "Product Intern",
+        "location": "Noida, Bangalore",
+        "type": "Paid",
+        "category": "Product",
+        "link": "https://www.adobe.com/careers.html"
+    },
+    {
+        "id": 10,
+        "company": "Intel",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/c/c9/Intel-logo.svg",
+        "role": "Silicon Design Intern",
+        "location": "Bangalore",
+        "type": "Paid",
+        "category": "Hardware",
+        "link": "https://jobs.intel.com/"
+    },
+    {
+        "id": 11,
+        "company": "Salesforce",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Salesforce.com_logo.svg",
+        "role": "Futureforce Intern",
+        "location": "Hyderabad, Bangalore",
+        "type": "Paid",
+        "category": "Software",
+        "link": "https://www.salesforce.com/company/careers/university-recruiting/"
+    },
+    {
+        "id": 12,
+        "company": "Oracle",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/5/50/Oracle_logo.svg",
+        "role": "Cloud Infrastructure Intern",
+        "location": "Bangalore, Hyderabad",
+        "type": "Paid",
+        "category": "Cloud",
+        "link": "https://www.oracle.com/corporate/careers/"
+    },
+    {
+        "id": 13,
+        "company": "IBM",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/5/51/IBM_logo.svg",
+        "role": "Quantum Research Intern",
+        "location": "Bangalore, Gurgaon",
+        "type": "Paid",
+        "category": "Research",
+        "link": "https://www.ibm.com/employment/"
+    },
+    {
+        "id": 14,
+        "company": "Uber",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Uber_logo_2018.png",
+        "role": "Software Engineer Intern",
+        "location": "Bangalore, Hyderabad",
+        "type": "Paid",
+        "category": "Software",
+        "link": "https://www.uber.com/us/en/careers/"
+    },
+    {
+        "id": 15,
+        "company": "Airbnb",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/6/69/Airbnb_Logo_B%C3%A9lo.svg",
+        "role": "Experience Design Intern",
+        "location": "Remote / Global",
+        "type": "Paid",
+        "category": "Design",
+        "link": "https://careers.airbnb.com/"
+    },
+    {
+        "id": 16,
+        "company": "Spotify",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/1/19/Spotify_logo_without_text.svg",
+        "role": "Backend Engineer Intern",
+        "location": "Remote / Mumbai",
+        "type": "Paid",
+        "category": "Software",
+        "link": "https://www.lifeatspotify.com/"
+    },
+    {
+        "id": 17,
+        "company": "Twitter / X",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/5/5a/X_icon_2.svg",
+        "role": "Core Systems Intern",
+        "location": "Bangalore",
+        "type": "Paid",
+        "category": "Software",
+        "link": "https://careers.twitter.com/"
+    },
+    {
+        "id": 18,
+        "company": "LinkedIn",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png",
+        "role": "UI/UX Intern",
+        "location": "Bangalore",
+        "type": "Paid",
+        "category": "Design",
+        "link": "https://careers.linkedin.com/students"
+    },
+    {
+        "id": 19,
+        "company": "Flipkart",
+        "logo": "https://upload.wikimedia.org/wikipedia/en/7/7a/Flipkart_logo.svg",
+        "role": "SDE Intern",
+        "location": "Bangalore",
+        "type": "Paid",
+        "category": "Software",
+        "link": "https://www.flipkartcareers.com/"
+    },
+    {
+        "id": 20,
+        "company": "Swiggy",
+        "logo": "https://upload.wikimedia.org/wikipedia/en/1/12/Swiggy_logo.svg",
+        "role": "Data Analyst Intern",
+        "location": "Bangalore",
+        "type": "Paid",
+        "category": "Data",
+        "link": "https://careers.swiggy.com/"
+    },
+    {
+        "id": 21,
+        "company": "Zomato",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Zomato_Logo.svg",
+        "role": "Product Design Intern",
+        "location": "Gurgaon",
+        "type": "Paid",
+        "category": "Design",
+        "link": "https://www.zomato.com/careers"
+    },
+    {
+        "id": 22,
+        "company": "Atlassian",
+        "logo": "https://wac-cdn.atlassian.com/assets/img/favicons/atlassian/favicon.png",
+        "role": "Site Reliability Intern",
+        "location": "Bangalore",
+        "type": "Paid",
+        "category": "Cloud",
+        "link": "https://www.atlassian.com/company/careers"
+    },
+    {
+        "id": 23,
+        "company": "Samsung",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/b/b4/Samsung_Wordmark.svg",
+        "role": "R&D Intern",
+        "location": "Bangalore, Noida",
+        "type": "Paid",
+        "category": "Research",
+        "link": "https://www.samsung.com/in/about-us/careers/"
+    },
+    {
+        "id": 24,
+        "company": "Goldman Sachs",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/6/61/Goldman_Sachs.svg",
+        "role": "Summer Analyst",
+        "location": "Bangalore",
+        "type": "Paid",
+        "category": "Finance Tech",
+        "link": "https://www.goldmansachs.com/careers/"
+    },
+    {
+        "id": 25,
+        "company": "JP Morgan",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/e/e0/JPMorgan_Chase.svg",
+        "role": "Technology Analyst Intern",
+        "location": "Mumbai, Bangalore",
+        "type": "Paid",
+        "category": "Finance Tech",
+        "link": "https://careers.jpmorgan.com/US/en/students/programs"
+    },
+    {
+        "id": 26,
+        "company": "Morgan Stanley",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/3/34/Morgan_Stanley_Logo_1.svg",
+        "role": "IT Summer Associate",
+        "location": "Mumbai, Bangalore",
+        "type": "Paid",
+        "category": "Software",
+        "link": "https://www.morganstanley.com/people/students-graduates"
+    },
+    {
+        "id": 27,
+        "company": "Cisco",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/0/08/Cisco_logo_blue_2016.svg",
+        "role": "Network Engineer Intern",
+        "location": "Bangalore",
+        "type": "Paid",
+        "category": "Hardware",
+        "link": "https://www.cisco.com/c/en/us/about/careers.html"
+    },
+    {
+        "id": 28,
+        "company": "Dell",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/4/48/Dell_Logo.svg",
+        "role": "Software Engineering Intern",
+        "location": "Bangalore",
+        "type": "Paid",
+        "category": "Software",
+        "link": "https://jobs.dell.com/"
+    },
+    {
+        "id": 29,
+        "company": "HP",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/a/ad/HP_logo_2012.svg",
+        "role": "Firmware Engineer Intern",
+        "location": "Bangalore",
+        "type": "Paid",
+        "category": "Hardware",
+        "link": "https://jobs.hp.com/"
+    },
+    {
+        "id": 30,
+        "company": "Qualcomm",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Qualcomm-Logo.svg",
+        "role": "Systems Engineer Intern",
+        "location": "Hyderabad, Bangalore",
+        "type": "Paid",
+        "category": "Hardware",
+        "link": "https://qualcomm.com/careers"
+    },
+    {
+        "id": 31,
+        "company": "AMD",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/7/7c/AMD_Logo.svg",
+        "role": "Design Engineer Intern",
+        "location": "Bangalore, Hyderabad",
+        "type": "Paid",
+        "category": "Hardware",
+        "link": "https://www.amd.com/en/corporate/careers"
+    },
+    {
+        "id": 32,
+        "company": "Intuit",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/7/75/Intuit_Logo_2023.svg",
+        "role": "Software Developer Intern",
+        "location": "Bangalore",
+        "type": "Paid",
+        "category": "Software",
+        "link": "https://www.intuit.com/careers/"
+    },
+    {
+        "id": 33,
+        "company": "PayPal",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/b/b5/PayPal.svg",
+        "role": "Software Engineer Intern",
+        "location": "Chennai, Bangalore",
+        "type": "Paid",
+        "category": "Software",
+        "link": "https://www.paypal.com/us/webapps/mpp/jobs"
+    },
+    {
+        "id": 34,
+        "company": "Stripe",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Stripe_Logo%2C_revised_2016.svg",
+        "role": "Solutions Engineer Intern",
+        "location": "Remote / Bangalore",
+        "type": "Paid",
+        "category": "Software",
+        "link": "https://stripe.com/jobs"
+    },
+    {
+        "id": 35,
+        "company": "Square / Block",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Block_Inc._logo.svg",
+        "role": "Android Engineer Intern",
+        "location": "Remote / Global",
+        "type": "Paid",
+        "category": "Software",
+        "link": "https://block.xyz/careers"
+    },
+    {
+        "id": 36,
+        "company": "Zoho",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/b/b1/Zoho-logo.png",
+        "role": "Member Technical Staff - Intern",
+        "location": "Chennai",
+        "type": "Paid",
+        "category": "Software",
+        "link": "https://www.zoho.com/careers/"
+    },
+    {
+        "id": 37,
+        "company": "Freshworks",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Freshworks_Logo.svg",
+        "role": "Product Development Intern",
+        "location": "Chennai",
+        "type": "Paid",
+        "category": "Product",
+        "link": "https://www.freshworks.com/company/careers/"
+    },
+    {
+        "id": 38,
+        "company": "PhonePe",
+        "logo": "https://upload.wikimedia.org/wikipedia/en/e/e0/PhonePe_Logo.svg",
+        "role": "Software Engineer Intern",
+        "location": "Bangalore",
+        "type": "Paid",
+        "category": "Software",
+        "link": "https://www.phonepe.com/careers/"
+    },
+    {
+        "id": 39,
+        "company": "Razorpay",
+        "logo": "https://upload.wikimedia.org/wikipedia/en/8/89/Razorpay_logo.svg",
+        "role": "Frontend Intern",
+        "location": "Bangalore",
+        "type": "Paid",
+        "category": "Software",
+        "link": "https://razorpay.com/jobs/"
+    },
+    {
+        "id": 40,
+        "company": "Cred",
+        "logo": "https://upload.wikimedia.org/wikipedia/en/8/87/CRED_logo.svg",
+        "role": "Backend Intern",
+        "location": "Bangalore",
+        "type": "Paid",
+        "category": "Software",
+        "link": "https://careers.cred.club/"
+    },
+    {
+        "id": 41,
+        "company": "Meesho",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/9/93/Meesho_logo.png",
+        "role": "SDE-1 Intern",
+        "location": "Bangalore",
+        "type": "Paid",
+        "category": "Software",
+        "link": "https://www.meesho.io/jobs"
+    },
+    {
+        "id": 42,
+        "company": "Ola Electric",
+        "logo": "https://upload.wikimedia.org/wikipedia/en/3/36/Ola_Cabs_logo.svg",
+        "role": "Embedded Systems Intern",
+        "location": "Bangalore",
+        "type": "Paid",
+        "category": "Hardware",
+        "link": "https://olaelectric.com/careers"
+    },
+    {
+        "id": 43,
+        "company": "Tata Digital",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Tata_Group_Logo.svg",
+        "role": "App Developer Intern",
+        "location": "Mumbai, Bangalore",
+        "type": "Paid",
+        "category": "Software",
+        "link": "https://www.tata.com/careers"
+    },
+    {
+        "id": 44,
+        "company": "Jio Platforms",
+        "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/0/07/Jio_Logo.svg/1200px-Jio_Logo.svg.png",
+        "role": "5G Research Intern",
+        "location": "Mumbai, Bangalore",
+        "type": "Paid",
+        "category": "Cloud",
+        "link": "https://careers.jio.com/"
+    },
+    {
+        "id": 45,
+        "company": "Infosys",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/9/95/Infosys_logo.svg",
+        "role": "Systems Engineer Intern",
+        "location": "Mysore, Bangalore",
+        "type": "Paid",
+        "category": "Software",
+        "link": "https://www.infosys.com/careers/"
+    },
+    {
+        "id": 46,
+        "company": "TCS",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/b/b1/Tata_Consultancy_Services_Logo.svg",
+        "role": "Digital Innovator Intern",
+        "location": "Multiple Locations",
+        "type": "Paid",
+        "category": "Software",
+        "link": "https://www.tcs.com/careers"
+    },
+    {
+        "id": 47,
+        "company": "Wipro",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Wipro_Primary_Logo_Color_RGB.svg",
+        "role": "Project Engineer Intern",
+        "location": "Bangalore",
+        "type": "Paid",
+        "category": "Software",
+        "link": "https://careers.wipro.com/"
+    },
+    {
+        "id": 48,
+        "company": "HCLTech",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/5/52/HCL_Tech_logo_2022.svg",
+        "role": "Graduate Trainee",
+        "location": "Noida",
+        "type": "Paid",
+        "category": "Software",
+        "link": "https://www.hcltech.com/careers"
+    },
+    {
+        "id": 49,
+        "company": "Tech Mahindra",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/3/34/Tech_Mahindra_New_Logo.svg",
+        "role": "Software Trainee",
+        "location": "Pune",
+        "type": "Paid",
+        "category": "Software",
+        "link": "https://careers.techmahindra.com/"
+    },
+    {
+        "id": 50,
+        "company": "Accenture",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Accenture.svg",
+        "role": "Technology Analyst",
+        "location": "Bangalore",
+        "type": "Paid",
+        "category": "Consulting",
+        "link": "https://www.accenture.com/in-en/careers"
+    },
+    {
+        "id": 51,
+        "company": "Deloitte",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/5/56/Deloitte.svg",
+        "role": "Cyber Risk Intern",
+        "location": "Hyderabad",
+        "type": "Paid",
+        "category": "Cybersecurity",
+        "link": "https://www2.deloitte.com/global/en/careers/students.html"
+    },
+    {
+        "id": 52,
+        "company": "KPMG",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/9/9d/KPMG_logo.svg",
+        "role": "Digital Advisory Intern",
+        "location": "Bangalore",
+        "type": "Paid",
+        "category": "Consulting",
+        "link": "https://home.kpmg/in/en/home/careers.html"
+    },
+    {
+        "id": 53,
+        "company": "PwC",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/0/0b/PwC_Logo_2010.svg",
+        "role": "Tech Consultant Intern",
+        "location": "Bangalore",
+        "type": "Paid",
+        "category": "Consulting",
+        "link": "https://www.pwc.in/careers.html"
+    },
+    {
+        "id": 54,
+        "company": "EY",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/3/34/EY_logo_2019.svg",
+        "role": "Technology Consultant",
+        "location": "Bangalore",
+        "type": "Paid",
+        "category": "Consulting",
+        "link": "https://www.ey.com/en_gl/careers"
+    },
+    {
+        "id": 55,
+        "company": "Capgemini",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/9/9d/Capgemini_201x_logo.svg",
+        "role": "Software Engineer Intern",
+        "location": "Pune",
+        "type": "Paid",
+        "category": "Software",
+        "link": "https://www.capgemini.com/careers/"
+    },
+    {
+        "id": 56,
+        "company": "Cognizant",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Cognizant_Logo_2022.svg",
+        "role": "GenC Intern",
+        "location": "Chennai",
+        "type": "Paid",
+        "category": "Software",
+        "link": "https://careers.cognizant.com/"
+    },
+    {
+        "id": 57,
+        "company": "Mindtree",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/6/6d/LTIMindtree_Logo.jpg",
+        "role": "Junior Engineer Intern",
+        "location": "Bangalore",
+        "type": "Paid",
+        "category": "Software",
+        "link": "https://www.ltimindtree.com/careers/"
+    },
+    {
+        "id": 58,
+        "company": "SAP",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/5/59/SAP_2011_logo.svg",
+        "role": "Product Support Intern",
+        "location": "Bangalore",
+        "type": "Paid",
+        "category": "Software",
+        "link": "https://www.sap.com/india/about/careers.html"
+    },
+    {
+        "id": 59,
+        "company": "VMware",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Vmware.svg",
+        "role": "MTS Intern",
+        "location": "Bangalore",
+        "type": "Paid",
+        "category": "Cloud",
+        "link": "https://careers.vmware.com/main/"
+    },
+    {
+        "id": 60,
+        "company": "Red Hat",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/d/d8/Red_Hat_logo.svg",
+        "role": "Open Source Intern",
+        "location": "Pune, Bangalore",
+        "type": "Paid",
+        "category": "Cloud",
+        "link": "https://www.redhat.com/en/jobs"
+    },
+    {
+        "id": 61,
+        "company": "Nutanix",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/1/16/Nutanix_Logo.svg",
+        "role": "Systems Reliability Intern",
+        "location": "Bangalore",
+        "type": "Paid",
+        "category": "Cloud",
+        "link": "https://www.nutanix.com/careers"
+    },
+    {
+        "id": 62,
+        "company": "ServiceNow",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/a/aa/ServiceNow_logo.svg",
+        "role": "Software Intern",
+        "location": "Hyderabad",
+        "type": "Paid",
+        "category": "Cloud",
+        "link": "https://www.servicenow.com/careers.html"
+    },
+    {
+        "id": 63,
+        "company": "Twilio",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Twilio-logo-red.svg",
+        "role": "API Engineering Intern",
+        "location": "Remote / Bangalore",
+        "type": "Paid",
+        "category": "Cloud",
+        "link": "https://www.twilio.com/company/jobs"
+    },
+    {
+        "id": 64,
+        "company": "Discord",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/9/91/Discord_logo_blue.svg",
+        "role": "Software Engineer Intern",
+        "location": "Remote / Global",
+        "type": "Paid",
+        "category": "Software",
+        "link": "https://discord.com/careers"
+    },
+    {
+        "id": 65,
+        "company": "Reddit",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/5/58/Reddit_logo_new.svg",
+        "role": "Data Engineer Intern",
+        "location": "Remote / Global",
+        "type": "Paid",
+        "category": "Data",
+        "link": "https://www.redditinc.com/careers"
+    },
+    {
+        "id": 66,
+        "company": "Zoom",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/2/24/Zoom_Communications_Logo.svg",
+        "role": "Video Engineering Intern",
+        "location": "Remote / Bangalore",
+        "type": "Paid",
+        "category": "Software",
+        "link": "https://careers.zoom.us/home"
+    },
+    {
+        "id": 67,
+        "company": "Dropbox",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/7/78/Dropbox_Icon.svg",
+        "role": "Security Intern",
+        "location": "Remote",
+        "type": "Paid",
+        "category": "Cybersecurity",
+        "link": "https://jobs.dropbox.com/"
+    },
+    {
+        "id": 68,
+        "company": "Box",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/5/57/Box%2C_Inc._logo.svg",
+        "role": "Platform Intern",
+        "location": "Remote",
+        "type": "Paid",
+        "category": "Cloud",
+        "link": "https://careers.box.com/"
+    },
+    {
+        "id": 69,
+        "company": "Slack",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Slack_icon_2019.svg",
+        "role": "Product Intern",
+        "location": "Remote",
+        "type": "Paid",
+        "category": "Product",
+        "link": "https://slack.com/careers"
+    },
+    {
+        "id": 70,
+        "company": "Pinterest",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/0/08/Pinterest-logo.png",
+        "role": "Machine Learning Intern",
+        "location": "Remote",
+        "type": "Paid",
+        "category": "AI",
+        "link": "https://www.pinterestcareers.com/"
+    },
+    {
+        "id": 71,
+        "company": "Snapchat",
+        "logo": "https://upload.wikimedia.org/wikipedia/en/c/c4/Snapchat_logo.svg",
+        "role": "Augmented Reality Intern",
+        "location": "Remote / Global",
+        "type": "Paid",
+        "category": "AI",
+        "link": "https://snap.com/en-US/careers"
+    },
+    {
+        "id": 72,
+        "company": "TikTok",
+        "logo": "https://upload.wikimedia.org/wikipedia/en/a/a9/TikTok_logo.svg",
+        "role": "Recommendation Systems Intern",
+        "location": "Singapore / Global",
+        "type": "Paid",
+        "category": "AI",
+        "link": "https://careers.tiktok.com/"
+    },
+    {
+        "id": 73,
+        "company": "Paytm",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/2/24/Paytm_Logo_%28standalone%29.svg",
+        "role": "Backend Developer",
+        "location": "Noida, Bangalore",
+        "type": "Paid",
+        "category": "Software",
+        "link": "https://paytm.com/careers/"
+    },
+    {
+        "id": 74,
+        "company": "MakeMyTrip",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/8/8d/MakeMyTrip_Logo.svg",
+        "role": "Full Stack Intern",
+        "location": "Gurgaon",
+        "type": "Paid",
+        "category": "Software",
+        "link": "https://careers.makemytrip.com/"
+    },
+    {
+        "id": 75,
+        "company": "Nykaa",
+        "logo": "https://upload.wikimedia.org/wikipedia/en/2/23/Nykaa_Logo.png",
+        "role": "Data Analyst Intern",
+        "location": "Mumbai",
+        "type": "Paid",
+        "category": "Data",
+        "link": "https://www.nykaa.com/careers"
+    },
+    {
+        "id": 76,
+        "company": "Urban Company",
+        "logo": "https://upload.wikimedia.org/wikipedia/en/1/14/Urban_Company_Logo.svg",
+        "role": "SDE Intern",
+        "location": "Gurgaon",
+        "type": "Paid",
+        "category": "Software",
+        "link": "https://www.urbancompany.com/careers"
+    },
+    {
+        "id": 77,
+        "company": "Zerodha",
+        "logo": "https://upload.wikimedia.org/wikipedia/en/2/28/Zerodha_logo.svg",
+        "role": "FOSS Intern",
+        "location": "Bangalore",
+        "type": "Paid",
+        "category": "Software",
+        "link": "https://zerodha.com/careers"
+    },
+    {
+        "id": 78,
+        "company": "Groww",
+        "logo": "https://groww.in/logo-groww270.png",
+        "role": "Product Analyst",
+        "location": "Bangalore",
+        "type": "Paid",
+        "category": "Data",
+        "link": "https://groww.in/careers"
+    },
+    {
+        "id": 79,
+        "company": "Upstox",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/e/e4/Upstox_Logo.svg",
+        "role": "Frontend Intern",
+        "location": "Mumbai",
+        "type": "Paid",
+        "category": "Software",
+        "link": "https://upstox.com/careers/"
+    },
+    {
+        "id": 80,
+        "company": "Dream11",
+        "logo": "https://upload.wikimedia.org/wikipedia/en/6/6f/Dream11_Logo.svg",
+        "role": "SDE Intern",
+        "location": "Mumbai",
+        "type": "Paid",
+        "category": "Software",
+        "link": "https://about.dream11.com/careers"
+    },
+    {
+        "id": 81,
+        "company": "Games24x7",
+        "logo": "https://upload.wikimedia.org/wikipedia/en/c/c2/Games24x7_Logo.png",
+        "role": "Game Developer Intern",
+        "location": "Bangalore",
+        "type": "Paid",
+        "category": "Software",
+        "link": "https://www.games24x7.com/careers"
+    },
+    {
+        "id": 82,
+        "company": "Hotstar",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Disney%2B_Hotstar_logo.svg",
+        "role": "Streaming Engineer Intern",
+        "location": "Bangalore, Mumbai",
+        "type": "Paid",
+        "category": "Software",
+        "link": "https://careers.hotstar.com/"
+    },
+    {
+        "id": 83,
+        "company": "Zepto",
+        "logo": "https://upload.wikimedia.org/wikipedia/en/7/7d/Zepto_logo.svg",
+        "role": "Supply Chain Tech Intern",
+        "location": "Mumbai, Bangalore",
+        "type": "Paid",
+        "category": "Data",
+        "link": "https://www.zeptonow.com/careers"
+    },
+    {
+        "id": 84,
+        "company": "Blinkit",
+        "logo": "https://upload.wikimedia.org/wikipedia/en/9/91/Blinkit_logo.svg",
+        "role": "Software Engineer Intern",
+        "location": "Gurgaon",
+        "type": "Paid",
+        "category": "Software",
+        "link": "https://blinkit.com/careers"
+    },
+    {
+        "id": 85,
+        "company": "BigBasket",
+        "logo": "https://upload.wikimedia.org/wikipedia/en/5/52/BigBasket_logo.svg",
+        "role": "App Developer Intern",
+        "location": "Bangalore",
+        "type": "Paid",
+        "category": "Software",
+        "link": "https://www.bigbasket.com/careers/"
+    },
+    {
+        "id": 86,
+        "company": "Lenskart",
+        "logo": "https://upload.wikimedia.org/wikipedia/en/e/e2/Lenskart_logo.svg",
+        "role": "AR / VR Intern",
+        "location": "Gurgaon",
+        "type": "Paid",
+        "category": "Hardware",
+        "link": "https://lenskart.com/careers"
+    },
+    {
+        "id": 87,
+        "company": "CarDekho",
+        "logo": "https://upload.wikimedia.org/wikipedia/en/2/29/CarDekho_Logo.svg",
+        "role": "Web Developer Intern",
+        "location": "Gurgaon",
+        "type": "Paid",
+        "category": "Software",
+        "link": "https://www.cardekho.com/careers"
+    },
+    {
+        "id": 88,
+        "company": "Spinny",
+        "logo": "https://upload.wikimedia.org/wikipedia/en/6/69/Spinny_Logo.svg",
+        "role": "Business Analyst Intern",
+        "location": "Gurgaon",
+        "type": "Paid",
+        "category": "Data",
+        "link": "https://www.spinny.com/careers/"
+    },
+    {
+        "id": 89,
+        "company": "BharatPe",
+        "logo": "https://upload.wikimedia.org/wikipedia/en/9/9f/BharatPe_logo.svg",
+        "role": "Backend Intern",
+        "location": "Delhi",
+        "type": "Paid",
+        "category": "Software",
+        "link": "https://bharatpe.com/careers"
+    },
+    {
+        "id": 90,
+        "company": "Navi",
+        "logo": "https://upload.wikimedia.org/wikipedia/en/3/3e/Navi_Logo.svg",
+        "role": "SDE Intern",
+        "location": "Bangalore",
+        "type": "Paid",
+        "category": "Finance Tech",
+        "link": "https://navi.com/careers"
+    },
+    {
+        "id": 91,
+        "company": "CoinSwitch",
+        "logo": "https://upload.wikimedia.org/wikipedia/en/2/2d/CoinSwitch_Kuber_logo.svg",
+        "role": "Blockchain Developer Intern",
+        "location": "Bangalore",
+        "type": "Paid",
+        "category": "Software",
+        "link": "https://coinswitch.co/careers"
+    },
+    {
+        "id": 92,
+        "company": "WazirX",
+        "logo": "https://upload.wikimedia.org/wikipedia/en/3/36/WazirX_Logo.svg",
+        "role": "Security Intern",
+        "location": "Remote",
+        "type": "Paid",
+        "category": "Cybersecurity",
+        "link": "https://wazirx.com/careers"
+    },
+    {
+        "id": 93,
+        "company": "Postman",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/c/c2/Postman_%28software%29_Logo.svg",
+        "role": "Developer Advocate Intern",
+        "location": "Bangalore",
+        "type": "Paid",
+        "category": "Software",
+        "link": "https://www.postman.com/careers/"
+    },
+    {
+        "id": 94,
+        "company": "BrowserStack",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/5/52/BrowserStack_Logo.svg",
+        "role": "SDET Intern",
+        "location": "Mumbai",
+        "type": "Paid",
+        "category": "Software",
+        "link": "https://www.browserstack.com/careers"
+    },
+    {
+        "id": 95,
+        "company": "HackerRank",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/6/65/HackerRank_logo.png",
+        "role": "Content Engineer Intern",
+        "location": "Bangalore",
+        "type": "Paid",
+        "category": "Education",
+        "link": "https://www.hackerrank.com/careers/"
+    },
+    {
+        "id": 96,
+        "company": "Zoox",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/7/76/Zoox_logo.svg",
+        "role": "Autonomous Vehicle Intern",
+        "location": "USA / Remote",
+        "type": "Paid",
+        "category": "AI",
+        "link": "https://zoox.com/careers/"
+    },
+    {
+        "id": 97,
+        "company": "Waymo",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Waymo_logo.svg",
+        "role": "Simulation Engineer Intern",
+        "location": "USA / Remote",
+        "type": "Paid",
+        "category": "AI",
+        "link": "https://waymo.com/careers/"
+    },
+    {
+        "id": 98,
+        "company": "OpenAI",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/4/4d/OpenAI_Logo.svg",
+        "role": "Research Engineer Intern",
+        "location": "San Francisco / Remote",
+        "type": "Paid",
+        "category": "AI",
+        "link": "https://openai.com/careers/"
+    },
+    {
+        "id": 99,
+        "company": "Anthropic",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Anthropic_logo.svg",
+        "role": "Safety Research Intern",
+        "location": "Remote",
+        "type": "Paid",
+        "category": "AI",
+        "link": "https://anthropic.com/careers"
+    },
+    {
+        "id": 100,
+        "company": "DeepMind",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Google_DeepMind_Logo.svg",
+        "role": "Research Scientist Intern",
+        "location": "London / Global",
+        "type": "Paid",
+        "category": "AI",
+        "link": "https://www.deepmind.com/careers"
+    },
+    {
+        "id": 101,
+        "company": "GitHub",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/c/c2/GitHub_Invertocat_Logo.svg",
+        "role": "Software Engineer Intern",
+        "location": "Remote",
+        "type": "Paid",
+        "category": "Software",
+        "link": "https://github.com/about/careers"
+    }
+]
