@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
-import { ArrowRight, Globe, TrendingUp, ShieldCheck } from 'lucide-react';
+import { ArrowRight, Globe, TrendingUp, ShieldCheck, BadgeCheck } from 'lucide-react';
 
 const Home = () => {
     const [featuredCompanies, setFeaturedCompanies] = useState([]);
@@ -13,7 +13,22 @@ const Home = () => {
                 const response = await fetch('http://localhost:5000/api/internships');
                 if (!response.ok) throw new Error('Failed to fetch');
                 const data = await response.json();
-                setFeaturedCompanies(data.slice(0, 5));
+
+                // Process data to get unique companies with internship counts
+                const companyMap = new Map();
+                data.forEach(item => {
+                    if (!companyMap.has(item.company)) {
+                        companyMap.set(item.company, {
+                            ...item,
+                            count: 1
+                        });
+                    } else {
+                        companyMap.get(item.company).count++;
+                    }
+                });
+
+                // Convert to array and take top 5
+                setFeaturedCompanies(Array.from(companyMap.values()).slice(0, 5));
                 setLoading(false);
             } catch (error) {
                 console.error('Error fetching internships:', error);
@@ -46,9 +61,13 @@ const Home = () => {
         >
             <section className="hero-section" style={{ textAlign: 'center', padding: '6rem 1rem 4rem', position: 'relative' }}>
                 <motion.div variants={itemVariants}>
+                    {/* Improved visibility with drop-shadow and brighter gradient */}
                     <span className="badge">New: 2026 Batches Open</span>
-                    <h1 style={{ fontSize: '3.5rem', marginBottom: '1.5rem', background: 'linear-gradient(to right, #fff, #38bdf8, #818cf8)', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent', fontWeight: '800', lineHeight: 1.2 }}>
-                        Find Top Tech Internships <br /> <span style={{ fontSize: '2.5rem', opacity: 0.9 }}>Kickstart Your Career</span>
+                    <h1 style={{ fontSize: '3.5rem', marginBottom: '1.5rem', color: '#ffffff', fontWeight: '800', lineHeight: 1.2, textShadow: '0 4px 10px rgba(0,0,0,0.5)' }}>
+                        Find Top Tech Internships <br />
+                        <span style={{ fontSize: '2.5rem', color: '#38bdf8', opacity: 1, textShadow: '0 0 20px rgba(56, 189, 248, 0.6)' }}>
+                            Kickstart Your Career
+                        </span>
                     </h1>
                     <p style={{ fontSize: '1.2rem', color: 'var(--text-secondary)', maxWidth: '600px', margin: '0 auto 2.5rem' }}>
                         One-stop platform to discover and apply to internships at Google, Microsoft, Amazon, and more. Direct links, no clutter.
@@ -101,15 +120,27 @@ const Home = () => {
                         style={{ display: 'flex', justifyContent: 'center', gap: '2rem', flexWrap: 'wrap' }}
                     >
                         {featuredCompanies.map((company, index) => (
-                            <motion.div
-                                key={company.id}
-                                className="glass"
-                                whileHover={{ scale: 1.05, background: 'rgba(255,255,255,0.1)' }}
-                                style={{ padding: '2rem', display: 'flex', flexDirection: 'column', alignItems: 'center', width: '160px', height: '160px', justifyContent: 'center', cursor: 'pointer' }}
+                            <Link
+                                to={`/company/${company.company}`}
+                                key={company.id || index}
+                                style={{ textDecoration: 'none' }}
                             >
-                                <img src={company.logo} alt={company.company} style={{ width: '64px', height: '64px', objectFit: 'contain', marginBottom: '1rem' }} />
-                                <span style={{ fontWeight: '600' }}>{company.company}</span>
-                            </motion.div>
+                                <motion.div
+                                    className="glass"
+                                    whileHover={{ scale: 1.05, background: 'rgba(255,255,255,0.15)', translateY: -5 }}
+                                    style={{ padding: '2rem', display: 'flex', flexDirection: 'column', alignItems: 'center', width: '180px', height: '180px', justifyContent: 'center', cursor: 'pointer', position: 'relative' }}
+                                >
+                                    <img src={company.logo} alt={company.company} style={{ width: '64px', height: '64px', objectFit: 'contain', marginBottom: '1rem' }} />
+                                    <div style={{ display: 'flex', alignItems: 'center', gap: '4px' }}>
+                                        <span style={{ fontWeight: '600', color: '#fff', fontSize: '1.1rem' }}>{company.company}</span>
+                                        <BadgeCheck size={16} color="#38bdf8" fill="rgba(56, 189, 248, 0.1)" />
+                                    </div>
+                                    <span style={{ fontSize: '0.8rem', color: '#94a3b8', marginTop: '0.5rem' }}>{company.category} Support</span>
+                                    <span style={{ position: 'absolute', top: '10px', right: '10px', background: 'rgba(56, 189, 248, 0.2)', color: '#38bdf8', fontSize: '0.7rem', padding: '2px 8px', borderRadius: '10px', border: '1px solid rgba(56, 189, 248, 0.3)' }}>
+                                        {company.count} Jobs
+                                    </span>
+                                </motion.div>
+                            </Link>
                         ))}
                     </motion.div>
                 )}

@@ -18,11 +18,9 @@ const Navbar = () => {
                 <div style={{ display: 'flex', gap: '1rem', alignItems: 'center' }}>
                     <Link to="/internships" className="btn btn-sm">Browse</Link>
                     <SignedOut>
-                        <SignInButton mode="modal">
-                            <button className="btn btn-sm" style={{ backgroundColor: 'transparent', border: '1px solid var(--accent-color)', color: 'var(--accent-color)' }}>
-                                Sign In
-                            </button>
-                        </SignInButton>
+                        <Link to="/sign-in" className="btn btn-sm" style={{ backgroundColor: 'transparent', border: '1px solid var(--accent-color)', color: 'var(--accent-color)' }}>
+                            Sign In
+                        </Link>
                     </SignedOut>
                     <SignedIn>
                         <UserButton />

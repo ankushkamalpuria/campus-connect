@@ -7,6 +7,9 @@
     z-index: 1000;
     border-radius: 0 0 16px 16px !important;
     border-top: none;
+    background: var(--glass-bg);
+    /* Enforce dark glass background */
+    backdrop-filter: blur(20px);
 }
 
 .navbar-content {
