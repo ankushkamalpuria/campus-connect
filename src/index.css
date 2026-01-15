@@ -26,15 +26,11 @@
 body {
   font-family: var(--font-family);
   background-color: var(--bg-color);
-<<<<<<< HEAD
-
-=======
   background-image: url('./assets/bg.png');
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
   background-repeat: no-repeat;
->>>>>>> ced380f5ecadf761e1533af619b8b64dc355490f
   color: var(--text-primary);
   line-height: 1.6;
   min-height: 100vh;

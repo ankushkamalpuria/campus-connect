@@ -7,7 +7,6 @@
         "location": "Bangalore, Hyderabad",
         "type": "Paid",
         "category": "Software",
-<<<<<<< HEAD
         "link": "https://careers.google.com/students/",
         "employees": "150,000+ Employees",
         "description": "Google's mission is to organize the world's information and make it universally accessible and useful. Join us to build products that help billions of people.",
@@ -24,9 +23,6 @@
             "Health Insurance",
             "Learning Budget"
         ]
-=======
-        "link": "https://careers.google.com/students/"
->>>>>>> ced380f5ecadf761e1533af619b8b64dc355490f
     },
     {
         "id": 2,
@@ -36,7 +32,6 @@
         "location": "Bangalore, Noida",
         "type": "Paid",
         "category": "Data",
-<<<<<<< HEAD
         "link": "https://careers.microsoft.com/students/us/en",
         "employees": "220,000+ Employees",
         "description": "Microsoft enables digital transformation for the era of an intelligent cloud and an intelligent edge. Their mission is to empower every person and every organization on the planet to achieve more.",
@@ -53,9 +48,6 @@
             "Stock Options",
             "Wellness Programs"
         ]
-=======
-        "link": "https://careers.microsoft.com/students/us/en"
->>>>>>> ced380f5ecadf761e1533af619b8b64dc355490f
     },
     {
         "id": 3,
@@ -65,7 +57,6 @@
         "location": "Bangalore, Hyderabad, Chennai",
         "type": "Paid",
         "category": "Software",
-<<<<<<< HEAD
         "link": "https://www.amazon.jobs/en/business_categories/student-programs",
         "employees": "1,500,000+ Employees",
         "description": "Amazon strives to be Earth's most customer-centric company, Earth's best employer, and Earth's safest place to work.",
@@ -82,9 +73,6 @@
             "Career Choice Program",
             "Health Benefits"
         ]
-=======
-        "link": "https://www.amazon.jobs/en/business_categories/student-programs"
->>>>>>> ced380f5ecadf761e1533af619b8b64dc355490f
     },
     {
         "id": 4,
@@ -94,7 +82,6 @@
         "location": "Remote / Global",
         "type": "Paid",
         "category": "Cloud",
-<<<<<<< HEAD
         "link": "https://www.metacareers.com/jobs",
         "employees": "67,000+ Employees",
         "description": "Meta builds technologies that help people connect, find communities, and grow businesses. When people ask what it’s like to work at Meta, you’ll usually hear that we’re moving fast.",
@@ -111,9 +98,6 @@
             "Wellness Stipend",
             "Parental Leave"
         ]
-=======
-        "link": "https://www.metacareers.com/jobs"
->>>>>>> ced380f5ecadf761e1533af619b8b64dc355490f
     },
     {
         "id": 5,
@@ -123,7 +107,6 @@
         "location": "Mumbai",
         "type": "Paid",
         "category": "Management",
-<<<<<<< HEAD
         "link": "https://jobs.netflix.com/",
         "employees": "12,000+ Employees",
         "description": "At Netflix, we want to entertain the world. Whatever your taste, and no matter where you live, we give you access to best-in-class TV shows, movies and documentaries.",
@@ -140,9 +123,6 @@
             "Freedom and Responsibility",
             "Stock Options"
         ]
-=======
-        "link": "https://jobs.netflix.com/"
->>>>>>> ced380f5ecadf761e1533af619b8b64dc355490f
     },
     {
         "id": 6,

@@ -130,7 +130,6 @@ const CompanyDetail = () => {
             {/* Header Section */}
             <div className="glass" style={{ padding: '3rem', marginBottom: '2rem', textAlign: 'center', display: 'flex', flexDirection: 'column', alignItems: 'center', position: 'relative', overflow: 'hidden' }}>
                 <div style={{ position: 'absolute', top: 0, left: 0, right: 0, height: '4px', background: 'linear-gradient(90deg, #38bdf8, #818cf8)' }}></div>
-<<<<<<< HEAD
                 {companyInfo.logo ? (
                     <>
                         <img
@@ -163,13 +162,6 @@ const CompanyDetail = () => {
                         {companyInfo.name[0]}
                     </div>
                 )}
-=======
-                <img
-                    src={companyInfo.logo}
-                    alt={companyInfo.name}
-                    style={{ width: '100px', height: '100px', objectFit: 'contain', background: 'white', padding: '10px', borderRadius: '20px', marginBottom: '1.5rem', boxShadow: '0 4px 10px rgba(0,0,0,0.1)' }}
-                />
->>>>>>> ced380f5ecadf761e1533af619b8b64dc355490f
                 <h1 style={{ fontSize: '2.5rem', marginBottom: '1rem', textShadow: '0 2px 4px rgba(0,0,0,0.5)' }}>{companyInfo.name}</h1>
                 <p style={{ maxWidth: '700px', color: '#cbd5e1', fontSize: '1.1rem', lineHeight: '1.6', marginBottom: '2rem' }}>{companyInfo.description}</p>
 
@@ -184,7 +176,7 @@ const CompanyDetail = () => {
                         Visit Website
                     </a>
                 </div>
-            </div>
+            </div >
 
             {/* Info Grid */}
             <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: '2rem', marginBottom: '3rem' }}>
@@ -225,11 +217,7 @@ const CompanyDetail = () => {
             <div className="internships-grid" style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(300px, 1fr))', gap: '2rem' }}>
                 {internships.length > 0 ? (
                     internships.map(internship => (
-<<<<<<< HEAD
                         <InternshipCard key={internship.id || internship._id} data={internship} />
-=======
-                        <InternshipCard key={internship.id || internship._id} internship={internship} />
->>>>>>> ced380f5ecadf761e1533af619b8b64dc355490f
                     ))
                 ) : (
                     <div style={{ gridColumn: '1/-1', textAlign: 'center', padding: '3rem', color: '#94a3b8', background: 'rgba(255,255,255,0.05)', borderRadius: '16px' }}>
@@ -237,7 +225,7 @@ const CompanyDetail = () => {
                     </div>
                 )}
             </div>
-        </motion.div>
+        </motion.div >
     );
 };
 

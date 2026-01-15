@@ -174,7 +174,6 @@ const Home = () => {
                                     whileHover={{ scale: 1.05, background: 'rgba(255,255,255,0.15)', translateY: -5 }}
                                     style={{ padding: '2rem', display: 'flex', flexDirection: 'column', alignItems: 'center', width: '180px', height: '180px', justifyContent: 'center', cursor: 'pointer', position: 'relative' }}
                                 >
-<<<<<<< HEAD
                                     {company.logo ? (
                                         <>
                                             <img
@@ -207,9 +206,6 @@ const Home = () => {
                                             {company.company[0]}
                                         </div>
                                     )}
-=======
-                                    <img src={company.logo} alt={company.company} style={{ width: '64px', height: '64px', objectFit: 'contain', marginBottom: '1rem' }} />
->>>>>>> ced380f5ecadf761e1533af619b8b64dc355490f
                                     <div style={{ display: 'flex', alignItems: 'center', gap: '4px' }}>
                                         <span style={{ fontWeight: '600', color: '#fff', fontSize: '1.1rem' }}>{company.company}</span>
                                         <BadgeCheck size={16} color="#38bdf8" fill="rgba(56, 189, 248, 0.1)" />
