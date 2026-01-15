@@ -83,6 +83,7 @@
 
 .feature-card:hover {
   transform: translateY(-5px);
+<<<<<<< HEAD
 }
 
 .creator-nameplate {
@@ -116,4 +117,6 @@
 .creator-nameplate span {
     color: #38bdf8;
     font-weight: 600;
+=======
+>>>>>>> ced380f5ecadf761e1533af619b8b64dc355490f
 }

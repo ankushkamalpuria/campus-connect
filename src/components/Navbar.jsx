@@ -14,7 +14,10 @@ const Navbar = () => {
                 <div className="nav-links">
                     <Link to="/" className="nav-link">Home</Link>
                     <Link to="/internships" className="nav-link">Internships</Link>
+<<<<<<< HEAD
                     <Link to="/about" className="nav-link">About Us</Link>
+=======
+>>>>>>> ced380f5ecadf761e1533af619b8b64dc355490f
                 </div>
                 <div style={{ display: 'flex', gap: '1rem', alignItems: 'center' }}>
                     <Link to="/internships" className="btn btn-sm">Browse</Link>

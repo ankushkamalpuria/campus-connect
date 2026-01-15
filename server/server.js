@@ -27,6 +27,10 @@ app.get('/', (req, res) => {
 const internshipRoutes = require('./routes/internships');
 app.use('/api/internships', internshipRoutes);
 
-app.listen(PORT, () => {
-    console.log(`🚀 Server running on http://localhost:${PORT}`);
-});
+if (require.main === module) {
+    app.listen(PORT, () => {
+        console.log(`🚀 Server running on http://localhost:${PORT}`);
+    });
+}
+
+module.exports = app;
