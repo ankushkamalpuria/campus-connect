@@ -1,6 +1,6 @@
-const express = require('express');
+import express from 'express';
 const router = express.Router();
-const Internship = require('../models/Internship');
+import Internship from '../models/Internship.js';
 
 // GET all internships
 router.get('/', async (req, res) => {
@@ -8,6 +8,7 @@ router.get('/', async (req, res) => {
         const internships = await Internship.find().sort({ id: 1 });
         res.json(internships);
     } catch (err) {
+        console.error("Error fetching internships:", err); // Improved error logging
         res.status(500).json({ message: err.message });
     }
 });
@@ -36,4 +37,5 @@ router.get('/search', async (req, res) => {
     }
 });
 
-module.exports = router;
+export default router;
+

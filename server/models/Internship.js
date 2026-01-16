@@ -1,4 +1,4 @@
-const mongoose = require('mongoose');
+import mongoose from 'mongoose';
 
 const internshipSchema = new mongoose.Schema({
     id: { type: Number, required: true, unique: true }, // Keeping ID for compatibility with existing frontend logic if needed, though _id exists
@@ -12,4 +12,5 @@ const internshipSchema = new mongoose.Schema({
     createdAt: { type: Date, default: Date.now }
 });
 
-module.exports = mongoose.model('Internship', internshipSchema);
+export default mongoose.model('Internship', internshipSchema);
+
