@@ -58,7 +58,7 @@ const CompanyDetail = () => {
         const fetchCompanyData = async () => {
             try {
                 // Fetch all internships and filter by company
-                const response = await fetch('http://localhost:5000/api/internships');
+                const response = await fetch(`${import.meta.env.VITE_API_URL || '/'}/api/internships`);
                 if (!response.ok) throw new Error('Failed to fetch');
                 const data = await response.json();
 
