@@ -10,7 +10,7 @@ const Home = () => {
     useEffect(() => {
         const fetchInternships = async () => {
             try {
-                const response = await fetch(`${import.meta.env.VITE_API_URL || '/'}/api/internships`);
+                const response = await fetch(`${(import.meta.env.VITE_API_URL || '').replace(/\/$/, '')}/api/internships`);
                 if (!response.ok) throw new Error('Failed to fetch');
                 const data = await response.json();
 
