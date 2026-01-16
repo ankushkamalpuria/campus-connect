@@ -14,7 +14,11 @@ const Internships = () => {
         const fetchData = async () => {
             try {
                 const response = await fetch(`${(import.meta.env.VITE_API_URL || '').replace(/\/$/, '')}/api/internships`);
-                if (!response.ok) throw new Error('Failed to fetch');
+                if (!response.ok) {
+                    const errorData = await response.json().catch(() => ({}));
+                    console.error("Server API Error:", errorData);
+                    throw new Error(errorData.message || `Server error: ${response.status}`);
+                }
                 const data = await response.json();
                 setInternshipData(data);
                 setFilteredData(data); // Initialize filtered data
