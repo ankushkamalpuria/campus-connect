@@ -1,8 +1,13 @@
-const mongoose = require('mongoose');
-const Internship = require('./models/Internship');
-const fs = require('fs');
-const path = require('path');
-require('dotenv').config();
+import mongoose from 'mongoose';
+import Internship from './models/Internship.js';
+import fs from 'fs';
+import path from 'path';
+import { fileURLToPath } from 'url';
+import dotenv from 'dotenv';
+dotenv.config();
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
 
 const MONGODB_URI = process.env.MONGODB_URI || 'mongodb://127.0.0.1:27017/tech-internship-hub';
 
